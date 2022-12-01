@@ -1,4 +1,4 @@
-/*import ClassComponent from "./ClassComponent.js"
+[*/import ClassComponent from "./ClassComponent.js"
 class 
 
 
@@ -11,16 +11,48 @@ function App(){
    </section>
   )
 }
-export default App*/
+export default App*/]
 
-import PorpsExample from './ClassComponent.js'
+[/*import ClassComponent from './ClassComponent.js'
 function App(){
   return(
     <div>
     <h1>I Am Ironman</h1>
-    <PropsExample name="Tony" age="48"/>
+    <ClassComponent name="Tony" age="48"/>
     </div>
 
     )
 }
-export default App
+export default App*/]
+
+// PropsExample from './PropsExample'
+// FunPropExample from './FunPropExample'
+// on App(){
+//   turn()
+
+//   <div>
+  
+//       {/* <PropsExample framework="Angularjs"year="2002"></PropsExample>
+//       <PropsExample framework="Reactjs"year="2003"></PropsExample>
+//       <PropsExample framework="Vuejsjs"year="2004"></PropsExample> */}
+
+
+//       </div>
+  
+// <FunPropExample framework="react"number="1"/>
+
+import React from 'react'
+export default class StateExample extends React.Component
+state={
+  name="react"
+  age:4567
+
+}
+render(){
+  return{
+    <div>
+    StateExample
+    <p>{this.state.name}
+    <p>{this.state.age}
+  }
+}
