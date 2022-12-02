@@ -1,22 +1,13 @@
+import { render } from "@testing-library/react"
 
-
-
-p(){
-
-v>
-{
-    <PropsExample framework="Angularjs"year="2002"</PropsExample>
-    <PropsExample framework="Reactjs"year="2003"</PropsExample>
-    <PropsExample framework="Vuejsjs"year="2004"</PropsExample>
-}
-}
 
 function FuncPropExample(props){
-    console.log(props)
+    render()
+    console.log(this.props)
     return{
         <div>
         <p>{props.framework}</p>
-        <p>{props.number}</p>
+        <p>{props.year}</p>
         </div>
     }
 }
